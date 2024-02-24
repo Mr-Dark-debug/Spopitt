@@ -1,16 +1,16 @@
 # SPOPITT: Your Music Matchmaker (But way cooler than Tinder )
 Tired of the same old, generic music recommendations?  We feel you. That's why we created SPOPITT, your personalized music curator who knows you better than your BFF (and probably remembers your birthday, unlike them ).
 
-Imagine this: ✨
+# Imagine this: ✨
 
 Morning blues? ☕️ SPOPITT energizes you with an upbeat playlist that'll have you dancing in your PJs (coffee not included, but hey, we can't do everything ).
 Afternoon slump? No worries, SPOPITT prescribes the perfect pick-me-up tunes to get your groove back on .
 Chill vibes at night? SPOPITT soothes your soul with a calming playlist that'll melt your stress away faster than chocolate (almost ).
 But wait, there's more!
 
-Connect with Spotify: Seamlessly link your account and enjoy your personalized magic on the platform you already love .
-Discover hidden gems: SPOPITT introduces you to new music you'll love, based on your taste and what's hot right now .
-Dive deep: Analyze your musical soul with genre insights and see how they influence your recommendations .
+## Connect with Spotify: Seamlessly link your account and enjoy your personalized magic on the platform you already love .
+## Discover hidden gems: SPOPITT introduces you to new music you'll love, based on your taste and what's hot right now .
+## Dive deep: Analyze your musical soul with genre insights and see how they influence your recommendations .
 Super secure: We take your privacy seriously. SPOPITT uses top-notch security to keep your info safe, so you can focus on jamming out .
 Built with love (and some serious code):
 
