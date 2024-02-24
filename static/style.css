@@ -1,0 +1,110 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    top: -19px;
+    left: 8px;
+}
+
+.header img {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header img:hover::after {
+    content: "Spopitt";
+    position: absolute;
+    top: 0;
+    left: 120%;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 600px;
+}
+
+.container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    top: 20%;
+    left: 0;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features,
+.how-to-use {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.features li,
+.how-to-use li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.login-button,
+.github-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footer a:hover {
+    color: #1db954;
+}

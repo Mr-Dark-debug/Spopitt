@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spopitt - Music Recommendation System</title>
+    <script src="https://cdn.jsdelivr.net/npm/three-gltf-loader@0.0.3/three-gltf-loader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="header">
+        <img src="./static/logo.png", title="Spopitt">
+    </div>
+
+    <!-- Description container -->
+    <div class="container">
+        <h1>Music Recommendation System</h1>
+        <p class="description">
+            Welcome to Spopitt! This is a music recommendation system that analyzes your Spotify data
+            to provide you with personalized music recommendations based on your listening habits.
+        </p>
+        <div class="features">
+            <h2>Features:</h2>
+            <ul>
+                <li>Personalized music recommendations</li>
+                <li>Analysis of your Spotify data</li>
+                <li>User-friendly interface</li>
+            </ul>
+        </div>
+        <div class="how-to-use">
+            <h2>How to use:</h2>
+            <ol>
+                <li>Login with your Spotify account by clicking the button below.</li>
+                <li>Once logged in, the system will analyze your Spotify data.</li>
+                <li>Based on your listening habits, you will receive personalized music recommendations.</li>
+            </ol>
+        </div>
+        <div>
+            <button class="login-button" onclick="redirectToLogin()">
+            <i class="fab fa-spotify"></i>
+            Login
+            </button>
+
+        <!-- GitHub button -->
+            <button class="github-button" onclick="redirectToGitHub()">
+            <i class="fab fa-github"></i>
+            GitHub
+            </button>
+        </div>
+    </div>
+
+    <div class="footer">
+        Made by Prashant <span>&#10084;</span>
+        <a href="https://www.instagram.com/your_instagram_profile/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/your_github_profile" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/your_linkedin_profile/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:your_email@example.com">
+            <i class="far fa-envelope"></i>
+        </a>
+        <a href="https://twitter.com/your_twitter_profile" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <script>
+
+        // Redirect to log in
+        function redirectToLogin() {
+            window.location.href = "{{ url_for('login') }}";
+        }
+
+        // Redirect to GitHub
+        function redirectToGitHub() {
+            window.location.href = "https://github.com/your_github_project_url";
+        }
+    </script>
+</body>
+</html>

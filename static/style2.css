@@ -1,0 +1,429 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 30px;
+}
+
+p.artist-name {
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+
+/* Set the background color */
+
+body {
+    background-color: #A076F9;
+    font-family: 'Poppins', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+img.user-profile-image {
+    margin-left: 10px;
+}
+
+
+/* navbar styles */
+
+header {
+    background-color: #6528F7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* Logo styles */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -25%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.logout-btn {
+    background-color: #ff577f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Scrollbar Styles */
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6528F7;
+    border-radius: 2px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #A076F9;
+    border-radius: 2px;
+}
+
+.carousel-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.carousel-container::-webkit-scrollbar-thumb {
+    background-color: #6528F7;
+    border-radius: 2px;
+}
+
+.carousel-container::-webkit-scrollbar-track {
+    background-color: #A076F9;
+    border-radius: 2px;
+}
+
+
+/* User Info Styles */
+
+.user-profile-image {
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-info {
+    float: left;
+}
+
+
+/* Scrollable Carousel Styles */
+
+.carousel-container {
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.carousel {
+    width: 100%;
+    height: 350px;
+    background: #D7BBF5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0px;
+    margin: 5px;
+    /*white-space: nowrap;*/
+    border-radius: 30px;
+    /*border-top: 10px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);*/
+}
+
+.carousel .item {
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.05) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #dfdfdf;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.carousel .item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.carousel .item .ranking {
+    /* "No Ranking" label */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #A076F9;
+    /* Use the desired color for the label background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.carousel .track-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.carousel .track-info {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #A076F9;
+    border-radius: 0 0 20px 20px;
+}
+
+.carousel .track-info h3 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.carousel .track-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.item {
+    width: 320px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.item .track-info {
+    /*padding: 10px;*/
+    color: white;
+    text-align: center;
+    background-color: #A076F9;
+    border-radius: 0 0 20px 20px;
+}
+
+.item .track-info h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.item .track-info p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+
+/* Scrollable Carousel Styles for Top Artists of the Month, Top Songs of the Week, Top Songs of All Time, and Top Playlists 
+
+.carousel-container .carousel {
+    height: 400px;
+}
+
+.carousel-container .carousel .item img {
+    height: 70%;
+}
+
+.carousel-container .carousel .item .ranking {
+    font-size: 14px;
+}
+
+.carousel-container .carousel .track-image {
+    height: 200px;
+}
+
+.carousel-container .carousel .track-info h3 {
+    font-size: 1.5em;
+}
+
+.carousel-container .carousel .track-info p {
+    font-size: 1.2em;
+}*/
+
+
+/*footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #EDE4FF;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}*/
