@@ -33,6 +33,6 @@ Ready to ditch the boring playlists and get your music fix?
 # P.S. We're always learning and growing, so if you have feedback, don't be shy! We love to hear from our music lovers.
 ## mail me @prashantc592114@gmail.com
 
-P.P.S. We may or may not be working on a feature that recommends music based on your mood emojis...stay tuned!
+## P.P.S. We may or may not be working on a feature that recommends music based on your mood emojis...stay tuned!
 
 <hr>
