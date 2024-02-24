@@ -1,4 +1,3 @@
-
 #SPOPITT: Your Music Matchmaker (But way cooler than Tinder)
 Tired of the same old, generic music recommendations?  We feel you. That's why we created SPOPITT, your personalized music curator who knows you better than your BFF (and probably remembers your birthday, unlike them ).
 
