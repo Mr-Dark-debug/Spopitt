@@ -8,11 +8,17 @@ Afternoon slump? No worries, SPOPITT prescribes the perfect pick-me-up tunes to 
 Chill vibes at night? SPOPITT soothes your soul with a calming playlist that'll melt your stress away faster than chocolate (almost ).
 But wait, there's more!
 
-## Connect with Spotify: Seamlessly link your account and enjoy your personalized magic on the platform you already love .
-## Discover hidden gems: SPOPITT introduces you to new music you'll love, based on your taste and what's hot right now .
-## Dive deep: Analyze your musical soul with genre insights and see how they influence your recommendations .
-Super secure: We take your privacy seriously. SPOPITT uses top-notch security to keep your info safe, so you can focus on jamming out .
+## Connect with Spotify: 
+Seamlessly link your account and enjoy your personalized magic on the platform you already love .
+## Discover hidden gems: 
+SPOPITT introduces you to new music you'll love, based on your taste and what's hot right now .
+## Dive deep: 
+Analyze your musical soul with genre insights and see how they influence your recommendations .
+## Super secure: 
+We take your privacy seriously. SPOPITT uses top-notch security to keep your info safe, so you can focus on jamming out .
 Built with love (and some serious code):
+
+# Tech and Stuff:
 
 Python (the coding kind, not the snake )
 Flask (for that web app magic 🪄)
@@ -21,12 +27,12 @@ Machine learning (fancy algorithms that get you )
 And a sprinkle of other cool stuff (confidential, like our secret sauce )
 Ready to ditch the boring playlists and get your music fix?
 
-Visit our website or download the app and let SPOPITT work its magic! ✨
+# Visit our website or download the app and let SPOPITT work its magic! ✨
+( Not now we have taken it down and removed the latest code to the older version that might not work since we are working on scaling and changing some things to make it better and more modern!!! )
 
-P.S. We're always learning and growing, so if you have feedback, don't be shy! We love to hear from our music lovers ❤️.
+# P.S. We're always learning and growing, so if you have feedback, don't be shy! We love to hear from our music lovers.
+## mail me @prashantc592114@gmail.com
 
 P.P.S. We may or may not be working on a feature that recommends music based on your mood emojis...stay tuned!
-
-#personalizedmusic #moodmusic #spotifylover #newmusicdiscovery #machinelearningmagic #appoftheday #getyourgrooveon #ditchtheboring #comingsoon
 
 <hr>
