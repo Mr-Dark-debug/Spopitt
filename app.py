@@ -12,11 +12,11 @@ import matplotlib.pyplot as plt
 
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("FLASK_SECRET_KEY", b'_5#y2L"F4Q8z\n\xec]/')  # Change this to a random secure key
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", 'your_key')  # Change this to a random secure key
 
 # Spotify API credentials
-SPOTIPY_CLIENT_ID = 'b67c1157fc284039add7e4ea1725e2f3'
-SPOTIPY_CLIENT_SECRET = '352d6d017bc24b96b66082982ae341d1'
+SPOTIPY_CLIENT_ID = 'your_key'
+SPOTIPY_CLIENT_SECRET = 'your_key'
 SPOTIPY_REDIRECT_URI = 'http://localhost:5000/callback/'  # can be changed if we deploy to a different domain
 
 # Scope for accessing user data
